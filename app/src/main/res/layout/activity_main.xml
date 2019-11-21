@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/throwjab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text=" Boxer Jab"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/BoxerCross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Boxer Cross"
+        app:layout_constraintBottom_toTopOf="@+id/Boxerhook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/throwjab" />
+
+    <Button
+        android:id="@+id/Boxerhook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boxer hook"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BoxerCross" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="boxer hook"
+        app:layout_constraintBottom_toTopOf="@+id/boxeruppercut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Boxerhook" />
+
+    <Button
+        android:id="@+id/boxeruppercut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boxer uppercut"
+        app:layout_constraintBottom_toTopOf="@+id/kixkboxerjab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/kixkboxerjab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KickBoxer jab"
+        app:layout_constraintBottom_toTopOf="@+id/kickboxerhook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxeruppercut" />
+
+    <Button
+        android:id="@+id/kickboxerhook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kick boxer hook"
+        app:layout_constraintBottom_toTopOf="@+id/kickboxeruppercut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kixkboxerjab" />
+
+    <Button
+        android:id="@+id/kickboxeruppercut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kick boxer uppercut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kickboxerhook" />
+</androidx.constraintlayout.widget.ConstraintLayout>
