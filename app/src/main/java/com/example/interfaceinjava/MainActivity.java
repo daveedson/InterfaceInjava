@@ -3,6 +3,7 @@ package com.example.interfaceinjava;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -48,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         boxerC.throwHook();
         Toast.makeText(MainActivity.this,boxerC.throwHook(),Toast.LENGTH_LONG).show();
 
+
+        Log.i("something", "message" );
 
         btnthrowjab.setOnClickListener(new View.OnClickListener(){
 
