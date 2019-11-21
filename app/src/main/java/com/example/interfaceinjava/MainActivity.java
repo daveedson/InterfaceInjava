@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Log.i("something", "message" );
+        Log.i("something", "message" );
 
         btnthrowjab.setOnClickListener(new View.OnClickListener(){
 
